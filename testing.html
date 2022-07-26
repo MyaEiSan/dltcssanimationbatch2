@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Testing</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<style type="text/css">
+         
+         body{
+         	font-family: sans-serif;
+         	height: 100vh;
+         	background-color: #333;
+
+         	display: flex;
+         	justify-content: center;
+         	align-items: center;
+         }
+
+         .container{
+         	width: 450px;
+         	height: 300px;
+
+         	position: relative;
+
+         	overflow: hidden;
+
+         }
+
+         .container::before{
+         	content: '';
+         	width: 120%;
+         	height: 200%;
+
+         	background-color: #000;
+
+         	position: absolute;
+         	top: 0;
+         	left: 0;
+
+         	opacity: 0.5;
+
+         	transform: translate(350px,300px) rotate(45deg);
+         	transition: all 0.25s;
+         	transition-delay: 0.25s;
+         }
+
+         .container:hover::before{
+         	transform: translate(-70px,-125px) rotate(45deg);
+         }
+
+
+         img{
+         	width: 100%;
+         	height: 100%;
+
+         	transition: all 0.5s;
+         }
+
+         .container .caption{
+         	width: 100%;
+         	height: 100%;
+
+         	position: absolute;
+         	top: 0;
+         	left: 0;
+
+         	color: #fff;
+
+         	display: flex;
+         	justify-content: space-around;
+         	flex-direction: column;
+
+            transition: all 0.25s;
+
+         }
+
+         .caption h3{
+
+         	transform: translate(200px,-200px);
+            
+            background-color: black;
+
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 16px;
+            padding: 20px;
+
+         	transition: all 0.25s;
+             transition-delay: 0.3s;
+         }
+
+         .container:hover h3{
+         	transform: translate(0px);
+         }
+
+         .caption p{
+         	width: 80%;
+
+         	text-align: center;
+         	text-transform: uppercase;
+
+         	align-self: center;
+            transform: translate(-200px,200px);
+            transition: all 0.25s;
+         }
+
+         .container:hover p{
+            transform: translate(0px);
+            transition-delay: 0.4s;
+         }
+         .caption a{
+         	text-decoration: none;
+            display: inline-block;
+
+            background-color: #000;
+         	color: #fff;
+            padding: 15px;
+            align-self: center;
+            text-transform: uppercase;
+
+            transform: translateY(200px);
+            transition: all 0.25s;
+         }
+
+         .container:hover a{
+            transform: translate(0px);
+            transition-delay: 0.5s;
+         }
+
+         
+		ul li:nth-child(3){
+			transition-delay: 0.8s;
+		}
+		ul li:nth-child(4){
+			transition-delay: 1.2s;
+		}
+		ul li:nth-child(5){
+			transition-delay: 1.6s;
+		}
+		ul li:nth-child(6){
+			transition-delay: 2s;
+		}
+		ul li:nth-child(7){
+			transition-delay: 2.4s;
+		}
+		ul li:nth-child(8){
+			transition-delay: 2.8s;
+		}
+
+	</style>
+</head>
+<body>
+	
+	<div class="container">
+		<img src="img/webdep.jpg" alt="cat" />
+		<div class="caption">
+			<h3>How Sweet!</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+			<a href="#">Read More</a>
+		</div>
+	</div>
+	
+</body>
+</html>
+<!-- l15buttoneffect
+     l16buttoneffect
+     l17buttoneffect
+     l18buttoneffect 
+     l19buttoneffect
+     l20buttoneffect
+     l21buttoneffect
+     l22buttoneffect
+     l23buttoneffect
+     l24buttoneffect
+     l25buttoneffect
+     l26buttoneffect
+     l27buttoneffect
+     l68anieffect
+     l66anieffect
+     l65loadereffect
+     l64anieffect
+     l63buttoneffect
+     l62buttoneffect
+     l61loadereffect
+     l60anieffect
+     l59anieffect
+     l58anieffect
+     l57anieffect
+     l56anieffect
+     l55anieffect
+     l54anieffect
+     l53anieffect
+     l52anieffect
+     l47texteffect
+     l46cardeffect
+     l45cardeffect
+     l44cardeffect
+     *l43menueffect
+     *l42menueffect
+     l41menueffect
+     l40menueffect
+     l39menueffect
+     l38cardeffect
+     l37cardeffect
+     l36cardeffect
+     l35cardeffect
+     l34cardeffect
+     l33cardeffect
+     l32cardeffect
+     l31buttoneffect-->
